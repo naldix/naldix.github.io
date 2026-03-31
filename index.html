@@ -11,16 +11,17 @@
   <header class="hero">
   <img src="assets/foto.jpg" alt="Arnaldo Menezes" class="avatar" />
   <h1 class="hero-name">Arnaldo Menezes</h1>
-  <p class="hero-subtitle">Analista de Dados</p>
+  <p class="hero-subtitle" data-i18n="hero_subtitle">Analista de Dados</p>
 </header>
   <nav class="navbar">
   <ul class="nav-links">
-    <li><a href="#" class="nav-item active" data-page="skills">Skills</a></li>
-    <li><a href="#" class="nav-item" data-page="dashboards">Portfolio</a></li>
-    <li><a href="#" class="nav-item" data-page="contato">Contact</a></li>
+    <li><a href="#" class="nav-item active" data-page="skills" data-i18n="nav_skills">Habilidades</a></li>
+    <li><a href="#" class="nav-item" data-page="dashboards" data-i18n="nav_dashboards">Portifólio</a></li>
+    <li><a href="#" class="nav-item" data-page="contato" data-i18n="nav_contato">Contato</a></li>
   </ul>
   <div class="nav-icons">
     <div class="nav-icons">
+      <button id="lang-btn" onclick="toggleLang()">🇺🇸 EN</button>
   <a href="https://www.linkedin.com/in/arnaldo-menezes-93b949380/" target="_blank" aria-label="LinkedIn">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
@@ -43,63 +44,63 @@
 
   <section id="skills" class="page">
     <div class="page-content">
-      <h2 class="page-title">Hard Skills</h2>
+      <h2 class="page-title" data-i18n="hard_skills">Habilidades Técnicas</h2>
       <div class="skills-grid">
         <div class="skill-card">
           <span class="skill-icon">🐍</span>
           <strong>Python</strong>
-          <span class="skill-tags">NumPy · Pandas · Matplotlib</span>
+          <span class="skill-tags" data-i18n="skill_python_tags">NumPy · Pandas · Matplotlib</span>
         </div>
         <div class="skill-card">
           <span class="skill-icon">🗄️</span>
           <strong>SQL</strong>
-          <span class="skill-tags">Queries · Joins · Procedures</span>
+          <span class="skill-tags" data-i18n="skill_sql_tags">Consultas · Joins · Procedures</span>
         </div>
         <div class="skill-card">
           <span class="skill-icon">📊</span>
           <strong>Power BI</strong>
-          <span class="skill-tags">DAX · Dashboards · Reports</span>
+          <span class="skill-tags" data-i18n="skill_pbi_tags">DAX · Dashboards · UI/UX</span>
         </div>
         <div class="skill-card">
           <span class="skill-icon">📗</span>
           <strong>Excel</strong>
-          <span class="skill-tags">Pivot tables · Functions · VBA</span>
+          <span class="skill-tags" data-i18n="skill_excel_tags">Tabelas Dinâmicas · Funções · VBA</span>
         </div>
         <div class="skill-card">
           <span class="skill-icon">🔄</span>
           <strong>ETL</strong>
-          <span class="skill-tags">Extraction · Transformation · Loading</span>
+          <span class="skill-tags" data-i18n="skill_etl_tags">Extração · Transformação · Carregamento</span>
         </div>
       </div>
-      <h2 class="page-title">Soft Skills</h2>
+      <h2 class="page-title" data-i18n="soft_skills">Habilidades Interpessoais</h2>
       <div class="skills-grid">
         <div class="skill-card soft">
           <span class="skill-icon">🧠</span>
-          <strong>Analytical Thinking</strong>
+          <strong data-i18n="soft_analitico">Pensamento Analítico</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">💬</span>
-          <strong>Communication</strong>
+          <strong data-i18n="soft_comunicacao">Comunicação</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">🤝</span>
-          <strong>Teamwork</strong>
+          <strong data-i18n="soft_equipe">Trabalho em Equipe</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">🎯</span>
-          <strong>Focus on Results</strong>
+          <strong data-i18n="soft_resultados">Foco em Resultados</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">📚</span>
-          <strong>Continuous Learning</strong>
+          <strong data-i18n="soft_aprendizado">Aprendizado Contínuo</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">🔍</span>
-          <strong>Attention to Details</strong>
+          <strong data-i18n="soft_detalhes">Atenção aos Detalhes</strong>
         </div>
         <div class="skill-card soft">
           <span class="skill-icon">⚡</span>
-          <strong>Problem Solving</strong>
+          <strong data-i18n="soft_problemas">Resolução de Problemas</strong>
         </div>
       </div>
     </div>
@@ -107,7 +108,7 @@
 
   <section id="dashboards" class="page">
     <div class="page-content">
-      <h2 class="page-title">Dashboards</h2>
+      <h2 class="page-title" data-i18n="dashboards_title">Projetos</h2>
       <div class="projects-grid">
         <a href="https://app.powerbi.com/view?r=eyJrIjoiMGJmNWZlM2QtMWNlNy00YTE2LTkzYzEtZGRmZWFiNjAwMjM4IiwidCI6ImUxYjVkNjBhLWFmYjctNDRiMi1hYTUzLTY1NGEzYzYxNjAzMiJ9" target="_blank" class="project-card">
   <div class="project-thumb">
@@ -115,8 +116,8 @@
 </div>
   <div class="project-info">
     <span class="project-type">POWER BI</span>
-    <h3>Marketplace Sales Dashboard</h3>
-    <p>General sales Analysis</p>
+    <h3 data-i18n="project1_name">Dashboard de Vendas</h3>
+    <p data-i18n="project1_desc">Análise Geral de Vendas</p>
   </div>
 </a>
 
@@ -126,8 +127,8 @@
 </div>
   <div class="project-info">
     <span class="project-type">POWER BI</span>
-    <h3>Marketing Dashboard</h3>
-    <p>Marketing Campaign Analysis</p>
+    <h3 data-i18n="project2_name">Dashboard de Marketing</h3>
+    <p data-i18n="project2_desc">Análise de Campanhas</p>
   </div>
 </a>
 
@@ -137,9 +138,8 @@
 </div>
   <div class="project-info">
     <span class="project-type">POWER BI</span>
-    <h3>Human Resources Dashboard</h3>
-    <p>HR Analytics
-</p>
+    <h3 data-i18n="project3_name">Dashboard de Recursos Humanos</h3>
+    <p data-i18n="project3_desc">Análise de RH</p>
   </div>
 </a>
       </div>
@@ -148,8 +148,8 @@
 
   <section id="contato" class="page">
     <div class="page-content">
-      <h2 class="page-title">Contato</h2>
-      <p class="contato-desc">Para conversar, entre em contato comigo!</p>
+      <h2 class="page-title" data-i18n="contato_title">Contato</h2>
+      <p class="contato-desc" data-i18n="contato_desc">Para conversar, entre em contato comigo!</p>
       <div class="contato-links">
         <a href="https://www.linkedin.com/in/arnaldo-menezes-93b949380/" target="_blank" class="contato-btn">LinkedIn</a>
         <a href="https://github.com/naldix" target="_blank" class="contato-btn">GitHub</a>

@@ -264,3 +264,23 @@ body {
   background-color: var(--accent);
   color: #ffffff;
 }
+
+#lang-btn {
+  position: fixed;
+  top: 12px;
+  left: 16px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 999;
+  transition: all 0.2s;
+}
+
+#lang-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
