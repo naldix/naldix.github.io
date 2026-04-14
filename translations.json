@@ -26,6 +26,8 @@
     "project2_desc": "Análise de Campanhas",
     "project3_name": "Dashboard de Recursos Humanos",
     "project3_desc": "Análise de RH",
+    "project4_name": "Dashboard de E-commerce - Olist",
+    "project4_desc": "Acompanhamento de Vendas - Olist",
     "contato_title": "Contato",
     "contato_desc": "Para conversar, entre em contato comigo!"
   },
@@ -56,6 +58,8 @@
     "project2_desc": "Campaign Analysis",
     "project3_name": "Human Resources Dashboard",
     "project3_desc": "HR Analysis",
+    "project4_name": "E-commerce Dashboard - Olist",
+    "project4_desc": "Sales Monitoring - Olist",
     "contato_title": "Contact",
     "contato_desc": "Let's talk! Find me on the links below."
   }
