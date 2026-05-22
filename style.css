@@ -293,17 +293,16 @@ body {
 
 .project-hover-preview {
   display: none;
-  position: fixed;
-  width: 400px;
+  position: absolute;
+  top: 0;
+  left: calc(100% + 16px);
+  width: 380px;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.25);
   overflow: hidden;
   z-index: 9999;
   pointer-events: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .project-hover-preview img {
